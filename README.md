@@ -12,7 +12,7 @@ A robust pattern matching utility for JavaScript/TypeScript, inspired by Rust's 
 
 ## Basic Usage
 ```typescript
-import { match } from '@your-package/match';
+import { match } from '@match/match';
 // Simple value matching
 match(value)
 .with(1, v => console.log('One'))
